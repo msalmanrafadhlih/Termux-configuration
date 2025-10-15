@@ -1,0 +1,10 @@
+repos/
+.ssh
+.termux_authinfo
+.bash_history
+zhistory
+storage/
+.thumbnails
+shell/
+.cache/
+.gitconfig

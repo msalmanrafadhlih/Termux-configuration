@@ -3,12 +3,12 @@
 #  ┬  ┬┌─┐┬─┐┌─┐
 #  └┐┌┘├─┤├┬┘└─┐
 #   └┘ ┴ ┴┴└─└─┘
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export HIS0;127;101m0;125;103M0;125;103mTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export SUDO_PROMPT="Deploying root access for %u. Password pls: "
 export BAT_THEME="base16"
 export EDITOR="hx"
-
-if [ -d "$HOME/.local/bin" ] ;
+;87;69mqq0;94;88M0;94;88m
+;99;92mif [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
@@ -109,7 +109,6 @@ PS1=$'%B%F{blue}Tquilla%f%b $(dir_icon) %B%F{yellow}%~%f%b${vcs_info_msg_0_}\n%(
 #  ┴  ┴─┘└─┘└─┘┴┘└┘└─┘
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/.config/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 #bindkey '^[[A' history-substring-search-up
 #bindkey '^[[B' history-substring-search-down
@@ -166,4 +165,3 @@ alias dvideo='yt-dlp --trim-filenames 80 --restrict-filenames -S "res:720,codec,
 alias dmusic='yt-dlp --trim-filenames 80 --restrict-filenames -x --audio-format mp3 -S "abr,codec" -o "~/storage/shared/Termux-media/Musics/%(playlist|NA)s/%(title)s [%(id)s].%(ext)s"'
 alias playvideo='mpv --no-config --vo=sixel  --profile=sw-fast --really-quiet --vo-sixel-reqcolors=0 --ao='pulse''
 alias play='~/gui/termux-player.sh'
-#alias kew='dbus-launch kew'

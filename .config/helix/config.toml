@@ -1,0 +1,21 @@
+theme = "rose_pine_moon"
+
+[editor]
+color-modes = true
+line-number = "relative"
+mouse = false
+middle-click-paste = false
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-absolute-path", "read-only-indicator", "file-modification-indicator", "separator", "version-control"]
+
+[editor.file-picker]
+hidden = false
+ignore = false
+git-ignore = false

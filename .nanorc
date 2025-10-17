@@ -7,11 +7,11 @@
 	set autoindent
 	set titlecolor brightwhite,black
 	set statuscolor brightwhite,black
-    
+
 	set softwrap
 #	set mouse
 #	set smooth
-	    
+
 	set constantshow
 	set indicator
 

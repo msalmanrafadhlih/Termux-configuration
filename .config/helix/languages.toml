@@ -1,0 +1,3 @@
+[language-server.rust-analyzer.config]
+# check = {command = "clippy", extraArgs = ["--", "-W", "clippy::unwrap_used", "-W", "clippy::expect_used", "-W", "clippy::pedantic", "-W", "clippy::nursery"]}
+check.command = "clippy"

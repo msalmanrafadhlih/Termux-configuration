@@ -1,0 +1,25 @@
+
+[miscellaneous]
+
+allowNotifications=1
+
+repeatState=0
+
+shuffleEnabled=1
+
+lastVolume=100
+
+[track cover]
+
+coverAnsi=1
+
+[visualizer]
+
+visualizerEnabled=1
+
+[colors]
+
+colorMode=0
+
+theme=
+

@@ -162,8 +162,14 @@ alias u='pkg uninstall'
 alias i='pkg install'
 alias editscript='nano ~/../usr/bin/myscript'
 alias myscript='source ~/../usr/bin/myscript'
-alias dvideo='yt-dlp --trim-filenames 80 --restrict-filenames -S "res:720,codec,br,fps" -f "bv*+ba/best" -o "~/storage/shared/Termux-media/Videos/%(playlist|NA)s/%(title)s [%(id)s].%(ext)s"'
-alias dmusic='yt-dlp --trim-filenames 80 --restrict-filenames -x --audio-format mp3 -S "abr,codec" -o "~/storage/shared/Termux-media/Musics/%(playlist|NA)s/%(title)s [%(id)s].%(ext)s"'
+alias dvideo='yt-dlp --trim-filenames 80 --restrict-filenames -S "res:720,codec,br,fps" -f "bv*+ba/best" -o "~/storage/videos/%(playlist|NA)s/%(title)s [%(id)s].%(ext)s"'
+alias dmusic='yt-dlp --trim-filenames 80 --restrict-filenames -x --audio-format mp3 -S "abr,codec" -o "~/storage/music/%(playlist|NA)s/%(title)s [%(id)s].%(ext)s"'
 alias playvideo='mpv --no-config --vo=sixel  --profile=sw-fast --really-quiet --vo-sixel-reqcolors=0 --ao='pulse''
 alias play='~/gui/termux-player.sh'
 #alias kew='dbus-launch kew'
+kew() {
+  if ! pgrep -x dbus-daemon >/dev/null; then
+    eval "$(dbus-launch --sh-syntax)"
+  fi
+  command kew "$@"
+}

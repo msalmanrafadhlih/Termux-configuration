@@ -60,4 +60,10 @@ alias stop='termux-media-player stop'
 alias playmusic='playlist ~/storage/shared/Termux-media/Musics'
 alias playvideo='mpv --no-config --vo=sixel  --profile=sw-fast --really-quiet --vo-sixel-reqcolors=0 --ao='pulse''
 alias play='~/gui/termux-player.sh'
-alias kew='dbus-launch kew'
+#alias kew='dbus-launch kew'
+kew() {
+  if ! pgrep -x dbus-daemon >/dev/null 2>&1; then
+    eval "$(dbus-launch --sh-syntax)"
+  fi
+  command kew "$@"
+}

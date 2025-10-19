@@ -3,15 +3,15 @@
 
 allowNotifications=1
 
-repeatState=0
+repeatState=1
 
-shuffleEnabled=1
+shuffleEnabled=0
 
 lastVolume=100
 
 [track cover]
 
-coverAnsi=1
+coverAnsi=0
 
 [visualizer]
 

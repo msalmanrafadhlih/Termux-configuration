@@ -8,3 +8,4 @@ storage/
 shell/
 .cache/
 .gitconfig
+crash_log_backup.md

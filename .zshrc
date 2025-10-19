@@ -173,3 +173,4 @@ kew() {
   fi
   command kew "$@"
 }
+alias GIT='git add . && git commit -m'

@@ -1,11 +1,13 @@
 repos/
-.ssh
+.ssh/
 .termux_authinfo
 .bash_history
 zhistory
 storage/
 .thumbnails
 shell/
+.vim
+.vim/
 .cache/
 .gitconfig
 crash_log_backup.md

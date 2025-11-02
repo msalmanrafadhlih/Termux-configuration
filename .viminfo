@@ -10,13 +10,36 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q
-|2,0,1760693184,,"q"
+|2,0,1760938136,,"q"
+:help version9
+|2,0,1760937934,,"help version9"
+:vimsheet
+|2,0,1760937916,,"vimsheet"
 :help
-|2,0,1760693040,,"help"
+|2,0,1760885296,,"help"
+:se
+|2,0,1760885194,,"se"
+:clo
+|2,0,1760885191,,"clo"
+:w
+|2,0,1760885187,,"w"
+:Ex
+|2,0,1760885166,,"Ex"
+:ex
+|2,0,1760885161,,"ex"
+:q!
+|2,0,1760885153,,"q!"
+:vimtutor
+|2,0,1760885070,,"vimtutor"
+:exit
+|2,0,1760876906,,"exit"
 :tutor
-|2,0,1760693035,,"tutor"
+|2,0,1760876877,,"tutor"
 :checkhealth
 |2,0,1760496952,,"checkhealth"
 
@@ -25,19 +48,252 @@
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@y
+|2,3,1760876711,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	hdgendvdunxndd
+|3,1,0,1,1,0,1760885179,"hdgendvdunxndd"
+"1	LINE	0
+	hdgendvdunxndd
+|3,0,1,1,1,0,1760885144,"hdgendvdunxndd"
+"q	CHAR	0
+	€ý5€ý5
+|3,0,26,0,1,0,1760877271,"€ý5€ý5"
+"-	CHAR	0
+	resource
+|3,0,36,0,1,0,1760876775,"resource"
 
 # global variables:
 
 # File marks:
+'0  13  0  ~/gui/test.py
+|4,48,13,0,1760885205,"~/gui/test.py"
+'1  48  36  ~/repos/nixos/flake.nix
+|4,49,48,36,1760876839,"~/repos/nixos/flake.nix"
+'2  48  36  ~/repos/nixos/flake.nix
+|4,50,48,36,1760876839,"~/repos/nixos/flake.nix"
 
 # Jumplist (newest first):
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  13  0  ~/gui/test.py
+|4,39,13,0,1760885205,"~/gui/test.py"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  17  0  ~
+|4,39,17,0,1760885173,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  1  0  ~
+|4,39,1,0,1760885161,"~"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
+-'  48  36  ~/repos/nixos/flake.nix
+|4,39,48,36,1760876839,"~/repos/nixos/flake.nix"
 
 # History of marks within files (newest to oldest):
 
+> /data/data/com.termux/files/usr/share/vim/vim91/doc/version9.txt
+	*	1760938125	0
+	"	84	0
+
 > /data/data/com.termux/files/usr/share/vim/vim91/doc/help.txt
-	*	1760693092	0
-	"	23	0
+	*	1760885297	0
+	"	1	0
+
+> ~/gui/test.py
+	*	1760885198	0
+	"	13	0
+
+> ~/repos/nixos/flake.nix
+	*	1760876834	0
+	"	48	36
+	^	132	41
+	.	132	40
+	+	132	40

@@ -6,7 +6,7 @@
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export SUDO_PROMPT="Deploying root access for %u. Password pls: "
 export BAT_THEME="base16"
-export EDITOR="hx"
+export EDITOR="nvim"
 
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
@@ -146,7 +146,7 @@ alias bash='exec bash'
 
 alias ls='lsd'
 alias lsall='lsd -a'
-alias cleanhome='rm -rf ~/.cache/* $PREFIX/tmp/* ~/.local/share/* 2
+alias cleanhome='rm -rf ~/.cache/* $PREFIX/tmp/* ~/.local/share/ 2
 >/dev/null; echo "Cache lokal dibersihkan ✅"'
 alias tquilla='cat /data/data/com.termux/files/usr/etc/motd'
 alias splash='nano /data/data/com.termux/files/usr/etc/motd'
@@ -174,3 +174,9 @@ kew() {
   command kew "$@"
 }
 alias GIT='git add . && git commit -m'
+alias py='python3'
+alias mypkgs='source ~/../usr/bin/home-pkgs'
+alias syspkgs='source ~/../usr/bin/system-pkgs'
+alias yatim='apt autoremove --dry-run'
+alias globalsrc='apt search'
+alias music='kew'

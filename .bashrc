@@ -17,7 +17,7 @@ export HISTSIZE=100000
 export HISTFILESIZE=10000
 export HISTCONTROL=ignoredups:erasedups
 export PATH="$HOME/.local/bin:$PATH"
-export EDITOR=nano
+export EDITOR=nvim
 #shopt -s histappend
 #shopt -s autocd
 #shopt -s cdspell
@@ -35,7 +35,7 @@ alias bashrc='nano ~/.bashrc'
 ## zsh
 alias zsh='exec zsh'
 
-alias cleanhome='rm -rf ~/.cache/* $PREFIX/tmp/* ~/.local/share/* 2>/dev/null; echo "Cache lokal dibersihkan ✅"'
+alias cleanhome='rm -rf ~/.cache/* $PREFIX/tmp/* ~/.local/share/ 2>/dev/null; echo "Cache lokal dibersihkan ✅"'
 alias tquilla='cat /data/data/com.termux/files/usr/etc/motd'
 alias splash='nano /data/data/com.termux/files/usr/etc/motd'
 alias ls='lsd'
@@ -68,3 +68,9 @@ kew() {
   command kew "$@"
 }
 alias GIT='git add . && git commit -m'
+alias py='python3'
+alias yatim='apt autoremove --dry-run'
+alias mypkgs='source ~/../usr/bin/home-pkgs'
+alias syspkgs='source ~/../usr/bin/system-pkgs'
+alias globalsrc='apt search'
+alias music='kew'

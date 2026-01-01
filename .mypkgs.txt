@@ -1,0 +1,110 @@
+ani-cli              | A cli to browse and watch anime
+apt                  | Front-end for the dpkg package manager
+bash                 | A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+bzip2                | Tools for working with bzip2 compression
+ca-certificates      | Common CA certificates
+chafa                | Image-to-text converter supporting a wide range of symbols, etc.
+clang                | C language frontend for LLVM
+cmake                | Family of tools designed to build, test and package software
+command-not-found    | Suggest installation of packages in interactive shell sessions
+coreutils            | Basic file, shell and text manipulation utilities from the GNU project
+curl                 | Command line tool for transferring data with URL syntax
+dash                 | Small POSIX-compliant implementation of /bin/sh
+dbus                 | Freedesktop.org message bus system
+debianutils          | Small utilities which are used primarily by the installation scripts of Debian packages
+dialog               | Application used in shell scripts which displays text user interface widgets
+diffutils            | Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+dos2unix             | Converts between DOS and Unix text files
+dpkg                 | Debian package management system
+ed                   | Classic UNIX line editor
+fastfetch            | A maintained, feature-rich and performance oriented, neofetch like system information tool
+fftw                 | Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+file                 | Command-line tool that tells you in words what kind of data a file contains
+findutils            | Utilities to find files meeting specified criteria and perform various actions on the files which are found
+gawk                 | Programming language designed for text processing
+git                  | Fast, scalable, distributed revision control system
+glib                 | Library providing core building blocks for libraries and applications written in C
+gpgv                 | GNU privacy guard - signature verification tool
+grep                 | Command which searches one or more input files for lines containing a match to a specified pattern
+gum                  | A tool for creating minimal interactive TUIs for shell scripts
+gzip                 | Standard GNU file compression utilities
+helix                | A post-modern modal text editor written in rust
+inetutils            | Collection of common network programs
+less                 | Terminal pager program used to view the contents of a text file one screen at a time
+libandroid-glob      | Shared library for the glob(3) system function
+libandroid-posix-semaphore | Shared library for the posix semaphore system function
+libandroid-selinux   | Android fork of libselinux, an SELinux userland library
+libandroid-support   | Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+libassuan            | Library implementing the Assuan IPC protocol used between most newer GnuPG components
+libbz2               | BZ2 format compression library
+libc++               | C++ Standard Library
+libcap-ng            | Library making programming with POSIX capabilities easier than traditional libcap
+libcurl              | Easy-to-use client-side URL transfer library
+libevent             | Library that provides asynchronous event notification
+libgcrypt            | General purpose cryptographic library based on the code from GnuPG
+libgmp               | Library for arbitrary precision arithmetic
+libgnutls            | Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+libgpg-error         | Small library that defines common error values for all GnuPG components
+libiconv             | An implementation of iconv()
+libidn2              | Free software implementation of IDNA2008, Punycode and TR46
+liblz4               | Fast LZ compression algorithm library
+liblzma              | XZ-format compression library
+libmd                | Message Digest functions from BSD systems
+libmpfr              | C library for multiple-precision floating-point computations with correct rounding
+libnettle            | Cryptographic library that is designed to fit easily in more or less any context
+libnghttp2           | nghttp HTTP 2.0 library
+libnghttp3           | HTTP/3 library written in C
+libnpth              | New GNU Portable Threads Library
+libogg               | Library for working with the Ogg multimedia container format
+libopus              | Reference implementation of the Opus codec
+libsixel             | Encoder/decoder implementation for DEC SIXEL graphics
+libsmartcols         | Library for smart adaptive formatting of tabular data
+libssh2              | Client-side library implementing the SSH2 protocol
+libtirpc             | Transport Independent RPC library
+libunbound           | A validating, recursive, caching DNS resolver
+libunistring         | Library providing functions for manipulating Unicode strings
+libvorbis            | Library for using the Ogg Vorbis compressed audio format
+lsd                  | Next gen ls command
+lsof                 | Lists open files for running Unix processes
+make                 | Tool to control the generation of non-source files from source files
+mandoc               | Man page viewer from the mandoc toolset
+mosh                 | Mobile shell that supports roaming and intelligent local echo
+mpv                  | Command-line media player
+nano                 | Small, free and friendly text editor
+ncurses              | Library for text-based user interfaces in a terminal-independent manner
+net-tools            | Configuration tools for Linux networking
+openssh              | Secure shell for logging into a remote machine
+openssl              | Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+opusfile             | A high-level API for decoding and seeking within .opus files
+patch                | GNU patch which applies diff files to create patched files
+pcre2                | Perl 5 compatible regular expression library
+pkg-config           | Helper tool used when compiling applications and libraries
+procps               | Utilities that give information about processes using the /proc filesystem
+psmisc               | Some small useful utilities that use the proc filesystem
+python               | Python 3 programming language intended to enable clear programs
+python-yt-dlp        | A youtube-dl fork with additional features and fixes
+readline             | Library that allow users to edit command lines as they are typed in
+resolv-conf          | Resolver configuration file
+sed                  | GNU stream editor for filtering/transforming text
+taglib               | A Library for reading and editing the meta-data of several popular audio formats.
+tar                  | GNU tar for manipulating tar archives
+termux-am            | Android Oreo-compatible am command reimplementation
+termux-am-socket     | A faster version of am with less features that only works while Termux is running
+termux-api           | Termux API commands (install also the Termux:API app)
+termux-core          | Utils and libraries for Termux core
+termux-exec          | Utils and libraries for Termux exec including a LD_PRELOAD shared library for proper functioning of the Termux execution environment
+termux-gui-package   | A Termux package containing utilities for Termux:GUI
+termux-keyring       | GPG public keys for the official Termux repositories
+termux-licenses      | Contains LICENSE files for common licenses
+termux-tools         | Basic system tools for Termux
+timg                 | A terminal image and video viewer
+tur-repo             | A single and trusted place for all unofficial/less popular termux packages
+unzip                | Tools for working with zip files
+util-linux           | Miscellaneous system utilities
+wget                 | Commandline tool for retrieving files using HTTP, HTTPS and FTP
+xxhash               | Extremely fast non-cryptographic hash algorithm
+xz-utils             | XZ-format compression tools
+yazi                 | Blazing fast terminal file manager written in Rust, based on async I/O
+zlib                 | Compression library implementing the deflate compression method found in gzip and PKZIP
+zsh                  | Shell with lots of features
+zstd                 | Zstandard compression

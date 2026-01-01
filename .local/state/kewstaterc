@@ -1,11 +1,11 @@
 
 [miscellaneous]
 
-allowNotifications=0
+allowNotifications=1
 
-repeatState=2
+repeatState=0
 
-shuffleEnabled=1
+shuffleEnabled=0
 
 lastVolume=100
 
@@ -21,5 +21,5 @@ visualizerEnabled=1
 
 colorMode=0
 
-theme=ravachol
+theme=
 

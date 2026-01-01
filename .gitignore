@@ -11,3 +11,4 @@ shell/
 .cache/
 .gitconfig
 crash_log_backup.md
+.local/state/

@@ -137,9 +137,9 @@ fi
 
 
 ## ZSH
-alias zshrc="nano ~/.zshrc"
+alias zshrc="nvim ~/.zshrc"
 alias zsh="source ~/.zshrc"
-alias ohmyzsh="nano ~/.oh-my-zsh"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 
 ## change to bash
 alias bash='exec bash'
@@ -180,3 +180,6 @@ alias syspkgs='source ~/../usr/bin/system-pkgs'
 alias yatim='apt autoremove --dry-run'
 alias globalsrc='apt search'
 alias music='kew'
+alias termsize='echo "$(tput cols)x$(tput lines)"'
+alias shared='yazi ~/storage/shared'
+alias bin='mv ~/storage/shared/.store/bin ~/storage/shared/DCIM/bin && echo "successed!"'

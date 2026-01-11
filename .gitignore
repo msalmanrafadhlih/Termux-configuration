@@ -12,3 +12,4 @@ shell/
 .gitconfig
 crash_log_backup.md
 .local/state/
+.local/share/

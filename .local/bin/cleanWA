@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+rm -rf storage/shared/Android/media/com.whatsapp/WhatsApp/Databases/*msgstore*
+echo 'clearing successfull!'
